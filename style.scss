@@ -13,7 +13,8 @@ body{
         /* width: 100%; */
         height: 100%; /* Is it really needed ? */
         object-fit: contain;
-        margin-top: 20px;
+        margin-top: 5vh;
+        margin-bottom: 2vh;
         max-width: 75%;
        
         
@@ -32,13 +33,13 @@ body{
         flex-direction: column;
         align-items: center;
         position: relative;
-        border: 1px solid black;  
+        
         
         
         
     }
     .flavors, .countries, .spicynesses, .years, .brands{
-        
+        font-size: 60%;
 
     }
     .names{
@@ -49,3 +50,29 @@ body{
         
     }
     
+@media only screen and (min-width : 768px) {
+
+    .card-group{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15%;
+        margin-left: 25%;
+    }
+    .card{
+    // max-width: min-content;
+    margin: 5%;
+    width:  25%;
+    border: 1px solid black;
+    
+        
+    
+
+    }
+
+    .pictures{
+
+        margin-top: 5vh;
+        margin-bottom: 2vh;}
+        
+    
+}

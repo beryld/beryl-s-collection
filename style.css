@@ -15,7 +15,8 @@ body {
   /* Is it really needed ? */
   -o-object-fit: contain;
      object-fit: contain;
-  margin-top: 20px;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
   max-width: 75%;
 }
 
@@ -42,7 +43,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  border: 1px solid black;
+}
+
+.flavors, .countries, .spicynesses, .years, .brands {
+  font-size: 60%;
 }
 
 .names {
@@ -50,5 +54,27 @@ body {
   top: 0;
   left: 0;
   margin-left: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .card-group {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 15%;
+    margin-left: 25%;
+  }
+  .card {
+    margin: 5%;
+    width: 25%;
+    border: 1px solid black;
+  }
+  .pictures {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */
