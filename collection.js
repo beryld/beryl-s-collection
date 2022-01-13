@@ -1,7 +1,7 @@
 
 const ramen = [
     {
-        images : './images/shin.jpg',
+        images : './images/shin.png',
         name : ' Shin Ramyun',
         Flavor : 'Original',
         Country :'South Korea',
@@ -12,7 +12,7 @@ const ramen = [
 
     },
     {
-        images : './images/indomie.jpeg',
+        images : './images/indomie.png',
         name : 'Indomie',
         Flavor : 'Chicken',
         Country : 'Indonesia',
@@ -24,7 +24,7 @@ const ramen = [
 
     },
     {
-        images : './images/nissin.jpeg',
+        images : './images/nissin.png',
         name : 'Demae Ramen',
         Flavor : 'Sesame',
         Country : 'Japan',
@@ -36,7 +36,7 @@ const ramen = [
 
     },
     {
-        images : './images/buldak.jpeg',
+        images : './images/buldak.png',
         name : 'Buldak',
         Flavor : 'Hot Chicken',
         Country : 'South Korea',
@@ -48,7 +48,7 @@ const ramen = [
 
     },
     {
-        images : './images/jin.jpeg',
+        images : './images/jin.png',
         name : 'Jin Ramyun',
         Flavor : 'Beef',
         Country : 'South Korea',
@@ -60,7 +60,7 @@ const ramen = [
 
     },
     {
-        images : './images/kumamoto.jpg',
+        images : './images/kumamoto.png',
         name : ' Kumamoto Ma-Yu',
         Flavor : ' Tonkotsu',
         Country : 'Japan',
@@ -72,7 +72,7 @@ const ramen = [
 
     },
     {
-        images: './images/yumyum.jpg' ,
+        images: './images/yumyum.png' ,
         name : 'Yum Yum',
         Flavor : 'Chicken sriracha',
         Country : 'Thailand',
@@ -84,7 +84,7 @@ const ramen = [
 
     },
     {
-        images : './images/jjajang.jpeg',
+        images : './images/jjajang.png',
         name : 'Jjajang Men',
         Flavor : 'Black Bean',
         Country : 'South Koren',
@@ -96,7 +96,7 @@ const ramen = [
 
     },
     {
-        images : './images/soba.jpeg',
+        images : './images/soba.png',
         name : 'Soba',
         Flavor : 'Chili',
         Country : 'Japan',
@@ -108,7 +108,7 @@ const ramen = [
 
     },
     {
-        images : './images/samyang.jpeg',
+        images : './images/samyang.png',
         name : 'Samyang Original',
         Flavor : 'Beef',
         Country : 'South Korea',
