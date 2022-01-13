@@ -10,6 +10,7 @@ body{
 }
 header{
     color: #446281;
+    
 
 }
 
@@ -17,6 +18,7 @@ header{
     display: flex;
     flex-direction: row;
     height: 15vh;
+    background-color: #24A19C;
 
 
     
@@ -34,6 +36,7 @@ border-radius: 20px;
 .title-page{
     align-self: center;
     font-size: 14px;
+    font-family: 'Racing Sans One', cursive;
 }
 
 .text-page{
@@ -70,13 +73,21 @@ border-radius: 20px;
         padding-bottom: 1%;
         border: #44638134 1px solid;
         border-radius: 15px;
-        
-        
-        
+        box-shadow: 0px 1px 2px #446281;
+        transition:  300ms ease-in;
         
     }
+
+    .card:hover{
+        box-shadow: 0px 3px 8px;
+    }
+
     .flavors, .countries, .spicynesses, .years, .brands{
         font-size: 60%;
+        align-self: flex-start;
+        margin-left: 20%;
+        font-weight: bold;
+        font-family: 'racing Sans One', cursive ;
 
     }
     .names{
@@ -84,6 +95,7 @@ border-radius: 20px;
         top: 0;
         left: 0;
         margin-left: 15px;
+        font-family: 'Racing Sans One', cursive;
         
     }
     
@@ -111,16 +123,19 @@ border-radius: 20px;
         margin-bottom: 2vh;}
         
     .flavors, .countries, .spicynesses, .years, .brands{
-        align-self: flex-start;
-        margin-left: 20%;
+       
         font-size: 16px;
 
     
     }   
+    header{
+        background-color: #24A19C;
+    }
     .header-one{
         gap: 10%;
         justify-content:left;
         flex-direction: row;
+        
     }
     .ramen-logo{
         height: 80%;
@@ -139,5 +154,8 @@ border-radius: 20px;
         font-size: 14px;
         text-align: center;
         width: 100%;
+    }
+    .title-page{
+        font-size: 25px;
     }
 }
