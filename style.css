@@ -6,7 +6,11 @@
 body {
   background-color: white;
   font-family: 'lora', serif;
-  color: #30475E;
+  color: #446281;
+}
+
+header {
+  color: #446281;
 }
 
 .header-one {
@@ -18,24 +22,27 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   height: 15vh;
-  margin-bottom: 15%;
 }
 
 .ramen-logo {
-  width: 100%;
+  height: 50%;
+  margin: 5%;
   -o-object-fit: contain;
      object-fit: contain;
+  border-radius: 20px;
 }
 
 .title-page {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  font-size: 14px;
 }
 
 .text-page {
   font-size: 10px;
   margin-left: 2%;
+  text-align: center;
 }
 
 .pictures {
@@ -72,6 +79,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  background-color: white;
+  padding-bottom: 1%;
+  border: #44638134 1px solid;
+  border-radius: 15px;
 }
 
 .flavors, .countries, .spicynesses, .years, .brands {
@@ -100,7 +111,6 @@ body {
   .card {
     margin: 5%;
     width: 25%;
-    border: 1px solid black;
   }
   .pictures {
     margin-bottom: 2vh;
@@ -110,6 +120,30 @@ body {
         align-self: flex-start;
     margin-left: 20%;
     font-size: 16px;
+  }
+  .header-one {
+    gap: 10%;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .ramen-logo {
+    height: 80%;
+    margin: 5%;
+  }
+  .text-contain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .text-page {
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */

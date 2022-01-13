@@ -6,34 +6,40 @@
 body{
     background-color: white;
     font-family: 'lora', serif;
-    color: #30475E;
+    color: #446281;
+}
+header{
+    color: #446281;
+
 }
 
 .header-one{
     display: flex;
     flex-direction: row;
-    // height: 100%;
     height: 15vh;
-    margin-bottom: 15%;
+
+
     
 }
 
 .ramen-logo{
-width: 100%;
+height: 50%;
+margin: 5%;
 object-fit: contain;
-// border-radius: 50%;
-
+border-radius: 20px;
 
     
 }
 
 .title-page{
     align-self: center;
+    font-size: 14px;
 }
+
 .text-page{
     font-size: 10px;
     margin-left: 2%;
-    
+    text-align: center;
 }
 
     .pictures{
@@ -60,6 +66,10 @@ object-fit: contain;
         flex-direction: column;
         align-items: center;
         position: relative;
+        background-color: white;
+        padding-bottom: 1%;
+        border: #44638134 1px solid;
+        border-radius: 15px;
         
         
         
@@ -88,7 +98,8 @@ object-fit: contain;
     // max-width: min-content;
     margin: 5%;
     width:  25%;
-    border: 1px solid black;
+    
+    
     
         
     
@@ -106,4 +117,27 @@ object-fit: contain;
 
     
     }   
+    .header-one{
+        gap: 10%;
+        justify-content:left;
+        flex-direction: row;
+    }
+    .ramen-logo{
+        height: 80%;
+         margin: 5%;
+         
+        
+        
+        
+            
+        }
+        .text-contain{
+            display: flex;
+
+        }
+    .text-page{
+        font-size: 14px;
+        text-align: center;
+        width: 100%;
+    }
 }
