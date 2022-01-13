@@ -150,12 +150,12 @@ for(let i = 0; i<ramen.length; i++){
     const newFlavor = document.createElement('p') // Create Flavor tag
     newFlavor.classList.add('flavors');
     document.getElementById([i + 1]).appendChild(newFlavor);
-    newFlavor.textContent= 'Flavor : ' +ramen[i].Flavor;
+    newFlavor.textContent= 'Flavor ' + ':\xa0\xa0\xa0\xa0\xa0\xa0\xa0'  +ramen[i].Flavor;
 
     const newCountry = document.createElement('p'); // 
     newCountry.classList.add('countries');
     document.getElementById([i + 1]).appendChild(newCountry);
-    newCountry.textContent = 'Country :' + ramen[i].Country;
+    newCountry.textContent = 'Country : \xa0\xa0' + ramen[i].Country;
 
     const newLevel = document.createElement('p'); // 
     newLevel.classList.add('spicynesses');
@@ -165,12 +165,12 @@ for(let i = 0; i<ramen.length; i++){
     const newDate = document.createElement('p'); // 
     newDate.classList.add('years');
     document.getElementById([i + 1]).appendChild(newDate);
-    newDate.textContent= ' Creation : ' + ramen[i].Year;
+    newDate.textContent= ' Creation : \xa0\xa0' + ramen[i].Year;
 
     const newBrand = document.createElement('p'); // 
     newBrand.classList.add('brands');
     document.getElementById([i + 1]).appendChild(newBrand);
-    newBrand.textContent='Brand : ' + ramen[i].Brand;
+    newBrand.textContent='Brand : \xa0\xa0\xa0\xa0\xa0\xa0\xa0' + ramen[i].Brand;
 
     
 
