@@ -117,6 +117,10 @@ for (let i = 0; i < ramen.length; i++) {
     newName.classList.add("names"); // Add a class to the H3 titles element
     document.getElementById([i + 1]).appendChild(newName);
     newName.textContent = ramen[i].name;
+    
+    // const newBR = document.createElement("br");
+    // newBR.classList.add('seperator');
+    // document.getElementsByClassName("names").appendChild(newBR);
 
     const newPict = document.createElement("img");
     newPict.classList.add("pictures");

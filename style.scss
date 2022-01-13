@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: whitesmoke;
   font-family: "lora", serif;
   color: #446281;
 }
@@ -58,6 +58,7 @@ header {
   background-color: white;
   padding-bottom: 1%;
   border: #44638134 1px solid;
+  border-top: 2px solid #ffbc3579;
   border-radius: 15px;
   box-shadow: 0px 1px 2px #446281;
   transition: 300ms ease-in;
@@ -83,6 +84,7 @@ header {
   top: 0;
   left: 0;
   margin-left: 15px;
+  padding-top: 3%;
   font-family: "Racing Sans One", cursive;
 }
 
@@ -100,6 +102,7 @@ header {
 
   .pictures {
     margin-bottom: 2vh;
+    
   }
 
   .flavors,
@@ -116,6 +119,7 @@ header {
     gap: 10%;
     justify-content: left;
     flex-direction: row;
+    
   }
   .ramen-logo {
     height: 80%;
