@@ -1,163 +1,135 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: white;
-    font-family: 'lora', serif;
-    color: #446281;
+body {
+  background-color: white;
+  font-family: "lora", serif;
+  color: #446281;
 }
-header{
-    color: #446281;
-    
-
+header {
+  color: #446281;
 }
 
-.header-one{
-    display: flex;
+.header-one {
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  background-color: #24a19c;
+}
+
+.ramen-logo {
+  height: 50%;
+  margin: 5%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.title-page {
+  align-self: center;
+  font-size: 14px;
+  font-family: "Racing Sans One", cursive;
+}
+
+.text-page {
+  font-size: 10px;
+  margin-left: 2%;
+  text-align: center;
+}
+
+.pictures {
+  height: 100%; /* Is it really needed ? */
+  object-fit: contain;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  max-width: 75%;
+}
+.card-group {
+  flex-direction: column;
+  align-items: stretch;
+}
+.card {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: white;
+  padding-bottom: 1%;
+  border: #44638134 1px solid;
+  border-radius: 15px;
+  box-shadow: 0px 1px 2px #446281;
+  transition: 300ms ease-in;
+}
+
+.card:hover {
+  box-shadow: 0px 3px 8px;
+}
+
+.flavors,
+.countries,
+.spicynesses,
+.years,
+.brands {
+  font-size: 60%;
+  align-self: flex-start;
+  margin-left: 20%;
+  font-weight: normal;
+  font-family: "open sans" sans-serif;
+}
+.names {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 15px;
+  font-family: "Racing Sans One", cursive;
+}
+
+@media only screen and (min-width: 768px) {
+  .card-group {
     flex-direction: row;
-    height: 15vh;
-    background-color: #24A19C;
-
-
-    
-}
-
-.ramen-logo{
-height: 50%;
-margin: 5%;
-object-fit: contain;
-border-radius: 20px;
-
-    
-}
-
-.title-page{
-    align-self: center;
-    font-size: 14px;
-    font-family: 'Racing Sans One', cursive;
-}
-
-.text-page{
-    font-size: 10px;
-    margin-left: 2%;
-    text-align: center;
-}
-
-    .pictures{
-        /* width: 100%; */
-        height: 100%; /* Is it really needed ? */
-        object-fit: contain;
-        margin-top: 5vh;
-        margin-bottom: 2vh;
-        max-width: 75%;
-       
-        
-
-
-    }
-    .card-group{
-        flex-direction: column;
-        align-items: stretch;
-        
-
-    }
-    .card{
-        margin: 10%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-        background-color: white;
-        padding-bottom: 1%;
-        border: #44638134 1px solid;
-        border-radius: 15px;
-        box-shadow: 0px 1px 2px #446281;
-        transition:  300ms ease-in;
-        
-    }
-
-    .card:hover{
-        box-shadow: 0px 3px 8px;
-        
-        
-    }
-
-    .flavors, .countries, .spicynesses, .years, .brands{
-        font-size: 60%;
-        align-self: flex-start;
-        margin-left: 20%;
-        font-weight: normal;
-        font-family: 'open sans' sans-serif;
-
-    }
-    .names{
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin-left: 15px;
-        font-family: 'Racing Sans One', cursive;
-        
-    }
-    
-@media only screen and (min-width : 768px) {
-
-    .card-group{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .card{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
     // max-width: min-content;
     margin: 5%;
-    width:  25%;
-    
-    
-    
-        
-    
+    width: 25%;
+  }
 
-    }
+  .pictures {
+    margin-bottom: 2vh;
+  }
 
-    .pictures{
-
-        margin-bottom: 2vh;}
-        
-    .flavors, .countries, .spicynesses, .years, .brands{
-       
-        font-size: 16px;
-
-    
-    }   
-    header{
-        background-color: #24A19C;
-    }
-    .header-one{
-        gap: 10%;
-        justify-content:left;
-        flex-direction: row;
-        
-    }
-    .ramen-logo{
-        height: 80%;
-         margin: 5%;
-         
-        
-        
-        
-            
-        }
-        .text-contain{
-            display: flex;
-
-        }
-    .text-page{
-        font-size: 14px;
-        text-align: center;
-        width: 100%;
-    }
-    .title-page{
-        font-size: 25px;
-    }
+  .flavors,
+  .countries,
+  .spicynesses,
+  .years,
+  .brands {
+    font-size: 16px;
+  }
+  header {
+    background-color: #24a19c;
+  }
+  .header-one {
+    gap: 10%;
+    justify-content: left;
+    flex-direction: row;
+  }
+  .ramen-logo {
+    height: 80%;
+    margin: 5%;
+  }
+  .text-contain {
+    display: flex;
+  }
+  .text-page {
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+  }
+  .title-page {
+    font-size: 25px;
+  }
 }
