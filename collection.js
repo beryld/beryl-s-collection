@@ -1,106 +1,6 @@
-const ramen = [
-  {
-    images: "./images/shin.png",
-    name: " Shin Ramyun",
-    Flavor: "Original",
-    Country: "South Korea",
-    Spicyness: " 5",
-    Year: "1986",
-    Brand: "Nongshim",
-    Website: " http://eng.nongshim.com/main/index",
-  },
-  {
-    images: "./images/indomie.png",
-    name: "Indomie",
-    Flavor: "Chicken",
-    Country: "Indonesia",
-    Spicyness: "0",
-    Year: "1972",
-    Brand: "Indofood",
-    Website: "https://www.indofood.com",
-  },
-  {
-    images: "./images/nissin.png",
-    name: "Demae Ramen",
-    Flavor: "Sesame",
-    Country: "Japan",
-    Spicyness: "1",
-    Year: "1968",
-    Brand: "Nissin",
-    Website: "https://nissinfoods.com",
-  },
-  {
-    images: "./images/buldak.png",
-    name: "Buldak",
-    Flavor: "Hot Chicken",
-    Country: "South Korea",
-    Spicyness: "5",
-    Year: "2012",
-    Brand: "Samyang",
-    Website: "https://samyangfoods.com",
-  },
-  {
-    images: "./images/jin.png",
-    name: "Jin Ramyun",
-    Flavor: "Beef",
-    Country: "South Korea",
-    Spicyness: "5",
-    Year: "" /* Waiting update from Peha !  */,
-    Brand: "Ottogi",
-    Website: "https://www.ottogi.co.kr",
-  },
-  {
-    images: "./images/kumamoto.png",
-    name: " Kumamoto Ma-Yu",
-    Flavor: " Tonkotsu",
-    Country: "Japan",
-    Spicyness: "0",
-    Year: "1959",
-    Brand: "Marutai",
-    Website: "https://re-how.net",
-  },
-  {
-    images: "./images/yumyum.png",
-    name: "Yum Yum",
-    Flavor: "Chicken sriracha",
-    Country: "Thailand",
-    Spicyness: "1",
-    Year: "1971",
-    Brand: "Wan Thai Food",
-    Website: "https://yumyumfoods.com",
-  },
-  {
-    images: "./images/jjajang.png",
-    name: "Jjajang Men",
-    Flavor: "Black Bean",
-    Country: "South Koren",
-    Spicyness: "1",
-    Year: "1984",
-    Brand: "Paldo (Yakult)",
-    Website: "http://www.paldofood.com",
-  },
-  {
-    images: "./images/soba.png",
-    name: "Soba",
-    Flavor: "Chili",
-    Country: "Japan",
-    Spicyness: "2",
-    Year: "XXXX",
-    Brand: "Nissin",
-    Website: "https://nissinfoods.com",
-  },
-  {
-    images: "./images/samyang.png",
-    name: "Samyang Original",
-    Flavor: "Beef",
-    Country: "South Korea",
-    Spicyness: "4",
-    Year: "1963",
-    Brand: "Samyang",
-    Website: "https://samyangfoods.com",
-  },
-];
+import { ramen }  from './collectionArray.js'; /* To be able to import like that, have to add the type "module to the script section in html " */
 
+console.log('ramen')
 const newSec = document.createElement("section");
 document.body.appendChild(newSec);
 newSec.classList.add("card-group");
@@ -159,7 +59,7 @@ for (let i = 0; i < ramen.length; i++) {
     newCard.onmouseover = function () {
       newCard.style.zIndex = 1;
       newCard.style.transition = "1.5s";
-      newCard.style.transform = "scale(1.10, 1.10 )"
+      newCard.style.transform = "scale(1.05, 1.05 )"
       newCard.style.boxShadow = "0 0 0 10000px rgba(255, 255, 255, 0.964)";
     };
     newCard.onmouseout = function () {
