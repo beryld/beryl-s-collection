@@ -158,11 +158,13 @@ for (let i = 0; i < ramen.length; i++) {
   function hideThem(newCard) {
     newCard.onmouseover = function () {
       newCard.style.zIndex = 1;
-      newCard.style.transition = "0.1s";
-      newCard.style.boxShadow = "0 0 0 10000px rgba(255, 255, 255, 0.764)";
+      newCard.style.transition = "1.5s";
+      newCard.style.transform = "scale(1.10, 1.10 )"
+      newCard.style.boxShadow = "0 0 0 10000px rgba(255, 255, 255, 0.964)";
     };
     newCard.onmouseout = function () {
       newCard.style.zIndex = 0;
+      newCard.style.transform = "scale(1, 1 )"
       newCard.style.boxShadow = "0 0 0 9999px #00000000";
     };
   }
