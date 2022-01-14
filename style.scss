@@ -109,6 +109,20 @@ header {
 .lien:hover{
   box-shadow: 0px 1px 2px white;
 }
+.liens{
+  text-decoration: none;
+  color: white;
+  background-color: #24a19c;
+  font-size: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-radius: 25px;
+  padding: 5px 15px;
+  font-family: "Racing Sans One", cursive;
+}
+.liens:hover{
+  box-shadow: 0px 1px 5px #446281;
+}
 
 @media only screen and (min-width: 768px) {
   .card-group {

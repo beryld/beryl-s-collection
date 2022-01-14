@@ -151,4 +151,10 @@ for (let i = 0; i < ramen.length; i++) {
     newBrand.classList.add("brands");
     document.getElementById([i + 1]).appendChild(newBrand);
     newBrand.textContent = "Brand : \xa0\xa0\xa0\xa0\xa0\xa0\xa0 " + ramen[i].Brand;
+    
+    const newLink = document.createElement("a");
+    newLink.classList.add("liens");
+    newLink.href = ramen[i].Website;
+    document.getElementById([i + 1]).appendChild(newLink);
+    newLink.textContent = ramen[i].Brand
 }
