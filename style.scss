@@ -87,6 +87,28 @@ header {
   padding-top: 3%;
   font-family: "Racing Sans One", cursive;
 }
+.footing{
+  display: flex;
+  flex-direction: row;
+  background-color: #24a19c;
+  justify-content: center;
+  padding: 5%;
+  
+}
+
+.lien{
+  text-decoration: none;
+  color: white;
+  background-color: #446281;
+  padding: 10px 25px;
+  font-size: 10px;
+  border-radius: 5px;
+  font-family: 'open sans' sans-serif;
+  
+}
+.lien:hover{
+  box-shadow: 0px 1px 2px white;
+}
 
 @media only screen and (min-width: 768px) {
   .card-group {
@@ -135,5 +157,8 @@ header {
   }
   .title-page {
     font-size: 25px;
+  }
+  .footing{
+    padding: 3%;
   }
 }
